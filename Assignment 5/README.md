@@ -8,3 +8,5 @@ orders – primary order_id, foreign customer_id
 addresses – primary address_id, foreign customer_id
 customers – primary customer_id
 administrators – primary admin_id
+
+2.) For the first form, I made sure there were no repeating values in the columns. For the second form, I made sure that every non-key column relied entirely on the primary key so that there is no redundant information. And for the third form, every non-key column depends strictly on the primary key and only the primary key.
